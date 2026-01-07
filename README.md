@@ -16,7 +16,6 @@
 
 ## ⚡ Frameworks & Librerías
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
@@ -33,17 +32,6 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
-
-## 📚 Actualmente aprendiendo
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin%20Multiplatform-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
-
----
-
-## 📊 Estadísticas de GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=agomcam813&show_icons=true&theme=tokyonight&hide_border=false&card_width=400)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=agomcam813&layout=compact&theme=tokyonight&hide_border=false&card_width=400)
 
 ---
 
