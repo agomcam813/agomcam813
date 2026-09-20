@@ -1,0 +1,114 @@
+<svg width="900" height="390" viewBox="0 0 900 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Antonio Gómez Camarena — Full Stack Developer</title>
+  <desc id="bannerDesc">DAM y SMR. Stack: Python, FastAPI, TypeScript, React, Material UI y PostgreSQL. DevOps: Git, GitHub, Docker, Render y Vercel. Sevilla, España. Contacto: antoniogomezcamarena2004@gmail.com, LinkedIn y agomcam.com.</desc>
+  <defs>
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1024"/>
+      <stop offset="50%" stop-color="#1a1440"/>
+      <stop offset="100%" stop-color="#2d1b5e"/>
+    </linearGradient>
+    <linearGradient id="glowDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#33d6ff"/>
+    </linearGradient>
+    <filter id="blurDark" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="roundedDark">
+      <rect x="0" y="0" width="900" height="390" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .line { opacity: 1; animation: fadeIn 0.5s ease; }
+    .l1 { animation-delay: 0.15s; }
+    .l2 { animation-delay: 0.45s; }
+    .l3 { animation-delay: 0.75s; }
+    .l4 { animation-delay: 1.05s; }
+    .l5 { animation-delay: 1.35s; }
+    .l6 { animation-delay: 1.65s; }
+    .l7 { animation-delay: 1.95s; }
+    .l8 { animation-delay: 2.25s; }
+    @keyframes fadeIn {
+      from { transform: translateX(-6px); }
+      to { transform: translateX(0); }
+    }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .orb { animation: float 6s ease-in-out infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
+    }
+    .dot { opacity: 0.85; }
+    @media (prefers-reduced-motion: reduce) {
+      .line, .orb, .cursor { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#roundedDark)">
+    <rect width="900" height="390" fill="url(#bgGradDark)"/>
+
+    <circle class="orb" cx="780" cy="70" r="90" fill="url(#glowDark)" opacity="0.28" filter="url(#blurDark)"/>
+    <circle class="orb" cx="120" cy="330" r="70" fill="#33d6ff" opacity="0.16" filter="url(#blurDark)" style="animation-delay:-3s"/>
+
+    <rect x="28" y="28" width="844" height="334" rx="16"
+          fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+
+    <circle class="dot" cx="54" cy="54" r="6" fill="#ff5f57"/>
+    <circle class="dot" cx="74" cy="54" r="6" fill="#febc2e"/>
+    <circle class="dot" cx="94" cy="54" r="6" fill="#28c840"/>
+    <text x="450" y="58" text-anchor="middle" class="mono" font-size="12" fill="#ffffff" fill-opacity="0.4">antonio@dev</text>
+
+    <g class="mono" font-size="15" fill="#e6e6f7">
+      <text x="52" y="92" class="line l1"><tspan fill="#33d6ff">&gt;</tspan> whoami</text>
+      <text x="52" y="116" class="line l2">Antonio Gómez Camarena · Full Stack Developer</text>
+      <text x="52" y="148" class="line l3"><tspan fill="#33d6ff">&gt;</tspan> cat about.md</text>
+      <text x="52" y="172" class="line l4">DAM · SMR · Ingeniería inversa de APIs</text>
+      <text x="52" y="204" class="line l5"><tspan fill="#33d6ff">&gt;</tspan> stack --focus</text>
+    </g>
+
+    <g class="line l5">
+      <rect x="52" y="216" width="78" height="26" rx="13" fill="#3776AB"/>
+      <text x="91" y="233" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">Python</text>
+      <rect x="138" y="216" width="84" height="26" rx="13" fill="#009688"/>
+      <text x="180" y="233" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">FastAPI</text>
+      <rect x="230" y="216" width="102" height="26" rx="13" fill="#007ACC"/>
+      <text x="281" y="233" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">TypeScript</text>
+      <rect x="340" y="216" width="70" height="26" rx="13" fill="#61DAFB"/>
+      <text x="375" y="233" text-anchor="middle" class="mono" font-size="11" fill="#00313d">React</text>
+      <rect x="418" y="216" width="56" height="26" rx="13" fill="#007FFF"/>
+      <text x="446" y="233" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">MUI</text>
+      <rect x="482" y="216" width="108" height="26" rx="13" fill="#316192"/>
+      <text x="536" y="233" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">PostgreSQL</text>
+    </g>
+
+    <text x="52" y="274" class="mono line l6" font-size="15" fill="#e6e6f7"><tspan fill="#33d6ff">&gt;</tspan> devops</text>
+
+    <g class="line l6">
+      <rect x="52" y="286" width="56" height="26" rx="13" fill="#F05032"/>
+      <text x="80" y="303" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">Git</text>
+      <rect x="116" y="286" width="78" height="26" rx="13" fill="#181717"/>
+      <text x="155" y="303" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">GitHub</text>
+      <rect x="202" y="286" width="78" height="26" rx="13" fill="#2496ED"/>
+      <text x="241" y="303" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">Docker</text>
+      <rect x="288" y="286" width="74" height="26" rx="13" fill="#111111"/>
+      <text x="325" y="303" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">Render</text>
+      <rect x="370" y="286" width="72" height="26" rx="13" fill="#111111"/>
+      <text x="406" y="303" text-anchor="middle" class="mono" font-size="11" fill="#ffffff">Vercel</text>
+    </g>
+
+    <text x="52" y="344" class="mono line l7" font-size="15" fill="#e6e6f7">Sevilla, España <tspan class="cursor" fill="#33d6ff">▌</tspan></text>
+
+    <g class="mono line l7" font-size="13" fill="#ffffff" fill-opacity="0.42" text-anchor="end">
+      <text x="848" y="92"><tspan fill="#33d6ff">&gt;</tspan> contact</text>
+      <text x="848" y="116" fill="#ffffff" fill-opacity="0.78">antoniogomezcamarena2004@gmail.com</text>
+      <text x="848" y="140" fill="#ffffff" fill-opacity="0.78">linkedin.com/in/antonio-gomez-camarena</text>
+      <text x="848" y="164" fill="#ffffff" fill-opacity="0.78">agomcam.com</text>
+    </g>
+  </g>
+</svg>
